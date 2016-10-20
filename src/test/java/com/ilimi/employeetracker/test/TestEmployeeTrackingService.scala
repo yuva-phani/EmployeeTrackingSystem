@@ -4,7 +4,7 @@ import org.apache.spark.SparkContext._
 import org.apache.spark.rdd._
 import org.scalatest.FlatSpec
 import com.datastax.spark.connector._
-import com.ilimi.employeetracker.logic.EmployeeTrackingService
+import com.ilimi.employeetracker.service.EmployeeTrackingService
 
 class TestEmployeeTrackingService extends FlatSpec {
 
